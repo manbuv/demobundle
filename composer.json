@@ -1,0 +1,28 @@
+{
+    "name": "manbuv/demo",
+    "description": "DemoBundle",
+    "type": "pimcore-bundle",
+    "require": {
+        "pimcore/pimcore": ">=5.8",
+        "php": ">=7.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "manbuv"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DemoBundle\\": "src/DemoBundle"
+        }
+    },
+    "extra": {
+        "pimcore": {
+            "bundles": [
+                "DemoBundle\\DemoBundle"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
